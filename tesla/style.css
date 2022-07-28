@@ -1,0 +1,9 @@
+.m3 img{
+    background-blend-mode: normal;
+    background-image: url(../tesla/M3-Homepage-Desktop-LHD.jpg);
+    background-repeat: no-repeat, repeat;
+}
+
+.model-3{
+    background-image: -moz-linear-gradient();
+}

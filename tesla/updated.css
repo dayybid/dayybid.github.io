@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: bisque;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+.impact-report{
+    text-align: center;
+    height: 66px;
+    background-color: white;
+    top:45px;
+    cursor:pointer;
+}
+
+.read{ text-align:left;}
+
+.center-nav{ 
+    text
+}
+
+
+.menu-bar{
+    display:flex;
+    justify-content:space-between;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+li{
+    display:inline;
+    margin: 13px;
+}
+
+.logo img{
+    margin-left: 13px;
+    width: 134px;
+    font-size: 173%;
+}
+
+section{
+    width:100%;
+    height: 100vh;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    scroll-snap-align: center;
+}
+
+#model-3{
+    background-image: url(./M3-Homepage-Desktop-LHD.jpg);
+    
+}
+#model-y{
+    background-image: url(./Desktop-ModelY.jpg);
+    background-position: center;
+}
+#model-s{
+    background-image: url(./Homepage-Model-S-Desktop-LHD.jpg);
+}
+#model-x{
+    background-image: url(./Homepage-Model-X-Desktop-LHD.jpg);
+}
+#panels{
+    background-image: url("./_25-HP-SolarPanels-D.jpg");
+}
+
+.button-container{
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.order, .inventory{
+    height: 50px;
+    width: 230px;
+    border-radius: 33px;
+    font-size: 101%;
+    text-transform: uppercase;
+    border:none;
+    cursor: pointer;
+}
+
+.order{
+    margin-right: 22px;
+    background-color: gray;
+}
+
+.inventory{
+    background-color: gainsboro;
+}
+
+.check{ 
+    position: fixed;
+    bottom:25px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.model-3{ 
+   position: fixed;
+    text-align: center;
+    width:100%;
+   margin-top: 22px;
+   font-weight: bold;
+}
+
+.delivery{
+    /* position: fixed; */
+    text-align: center;
+    width: 100%;
+    margin-top: 21px;
+}
+    
+
+
+#down-arrow{
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='xMidYMid Meet' width='100' height='100'%3e%3cpath d='M100 5.5c0 1.3-.5 2.6-1.5 3.5L50 57.5 1.5 9c-2-2-2-5.1 0-7.1s5.1-2 7.1 0L50 43.4 91.5 1.9c2-2 5.1-2 7.1 0 .9 1 1.4 2.3 1.4 3.6z'/%3e%3c/svg%3e");
+
+    width: 23px;
+    height: 22px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin:auto;
+
+}
+
+.model-text{
+    text-align: center;
+    width:100%;
+    display: block;
+    position: relative;
+    top: 138px;
+}
+
+/* .solar{
+    text-align: center;
+    width:100%;
+    top:138px;
+    display:block;
+    postition:relative;
+} */
+
+/* .model-name{
+    width:100%;
+} */
+
+
+
